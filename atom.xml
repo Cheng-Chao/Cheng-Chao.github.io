@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-01-01T15:55:46.000Z</updated>
+  <updated>2017-01-01T16:19:30.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -20,9 +20,9 @@
     <link href="http://yoursite.com/2017/01/01/jQuery%E5%B8%B8%E7%94%A8%E6%96%B9%E6%B3%95/"/>
     <id>http://yoursite.com/2017/01/01/jQuery常用方法/</id>
     <published>2017-01-01T15:54:00.000Z</published>
-    <updated>2017-01-01T15:55:46.000Z</updated>
+    <updated>2017-01-01T16:19:30.000Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="trim"><a href="#trim" class="headerlink" title="$.trim"></a>$.trim</h2><p>$.trim方法用于移除字符串头部和尾部多余的空格。<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$.trim(<span class="string">'  Hello  '</span>); <span class="comment">// Hello</span></div></pre></td></tr></table></figure></p>
+    <content type="html"><![CDATA[<h3 id="trim"><a href="#trim" class="headerlink" title="$.trim"></a>$.trim</h3><p>$.trim方法用于移除字符串头部和尾部多余的空格。<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$.trim(<span class="string">'  Hello  '</span>); <span class="comment">// Hello</span></div></pre></td></tr></table></figure></p>
 <h3 id="contains"><a href="#contains" class="headerlink" title="$.contains"></a>$.contains</h3><p>$.contains方法返回一个布尔值，表示某个DOM元素（第二个参数）是否为另一个DOM元素（第一个参数）的下级元素。<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">$.contains(<span class="built_in">document</span>.documentElement, <span class="built_in">document</span>.body);  <span class="comment">// true</span></div><div class="line">$.contains(<span class="built_in">document</span>.body, <span class="built_in">document</span>.documentElement);  <span class="comment">// false</span></div></pre></td></tr></table></figure></p>
 <h3 id="each"><a href="#each" class="headerlink" title="$.each"></a>$.each</h3><p>$.each方法用于遍历数组和对象，然后返回原始对象。它接受两个参数，分别是数据集合和回调函数。<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div></pre></td><td class="code"><pre><div class="line">$.each([ <span class="number">52</span>, <span class="number">97</span> ], <span class="function"><span class="keyword">function</span>(<span class="params"> index, value </span>) </span>&#123;</div><div class="line">  <span class="built_in">console</span>.log( index + <span class="string">": "</span> + value );</div><div class="line">&#125;);</div><div class="line"><span class="comment">// 0: 52 </span></div><div class="line"><span class="comment">// 1: 97 </span></div><div class="line"><span class="keyword">var</span> obj = &#123;</div><div class="line">  <span class="attr">p1</span>: <span class="string">"hello"</span>,</div><div class="line">  <span class="attr">p2</span>: <span class="string">"world"</span></div><div class="line">&#125;;</div><div class="line">$.each( obj, <span class="function"><span class="keyword">function</span>(<span class="params"> key, value </span>) </span>&#123;</div><div class="line">  <span class="built_in">console</span>.log( key + <span class="string">": "</span> + value );</div><div class="line">&#125;);</div><div class="line"><span class="comment">// p1: hello</span></div><div class="line"><span class="comment">// p2: world</span></div></pre></td></tr></table></figure></p>
 <p>需要注意的，jQuery对象实例也有一个each方法（$.fn.each），两者的作用差不多。</p>
@@ -53,7 +53,7 @@
     
     <summary type="html">
     
-      &lt;h2 id=&quot;trim&quot;&gt;&lt;a href=&quot;#trim&quot; class=&quot;headerlink&quot; title=&quot;$.trim&quot;&gt;&lt;/a&gt;$.trim&lt;/h2&gt;&lt;p&gt;$.trim方法用于移除字符串头部和尾部多余的空格。&lt;br&gt;&lt;figure class=&quot;highlight jav
+      &lt;h3 id=&quot;trim&quot;&gt;&lt;a href=&quot;#trim&quot; class=&quot;headerlink&quot; title=&quot;$.trim&quot;&gt;&lt;/a&gt;$.trim&lt;/h3&gt;&lt;p&gt;$.trim方法用于移除字符串头部和尾部多余的空格。&lt;br&gt;&lt;figure class=&quot;highlight jav
     
     </summary>
     
