@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yoursite.com/2017/01/02/GitHub%20Pages+Hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</loc>
+    
+    <lastmod>2017-01-02T13:58:16.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://yoursite.com/2017/01/01/jQuery%E5%B8%B8%E7%94%A8%E6%96%B9%E6%B3%95/</loc>
     
     <lastmod>2017-01-02T13:30:48.000Z</lastmod>
@@ -19,13 +26,6 @@
     <loc>http://yoursite.com/2017/01/02/Image%20Gallery/</loc>
     
     <lastmod>2017-01-02T13:27:49.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2017/01/02/Git%20Page+Hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</loc>
-    
-    <lastmod>2017-01-02T13:26:48.000Z</lastmod>
     
   </url>
   

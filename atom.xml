@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-01-02T13:26:48.000Z</updated>
+  <updated>2017-01-02T13:58:16.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -16,11 +16,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Git Page+Hexo搭建博客</title>
-    <link href="http://yoursite.com/2017/01/02/Git%20Page+Hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/"/>
-    <id>http://yoursite.com/2017/01/02/Git Page+Hexo搭建博客/</id>
+    <title>GitHub Pages+Hexo搭建博客</title>
+    <link href="http://yoursite.com/2017/01/02/GitHub%20Pages+Hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/"/>
+    <id>http://yoursite.com/2017/01/02/GitHub Pages+Hexo搭建博客/</id>
     <published>2017-01-02T12:20:00.000Z</published>
-    <updated>2017-01-02T13:26:48.000Z</updated>
+    <updated>2017-01-02T13:58:16.000Z</updated>
     
     <content type="html"><![CDATA[<p>Hexo 是一个简单地、轻量地、基于Node的一个静态博客框架，可以方便的生成静态网页托管在Github和Heroku上；GitHub Pages 可以被认为是用户编写的、托管在github上的静态网页。由于它的空间免费稳定，可以用于介绍托管在Github上的Project或者搭建网站。本文为一个简易的教程。<br><a id="more"></a></p>
 <hr>
